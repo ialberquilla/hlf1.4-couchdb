@@ -14,4 +14,7 @@ docker exec -it cli ./scripts/channel/createChannel.sh
 docker exec -it cli ./scripts/channel/joinPeer.sh peer0 org1 Org1MSP 7051
 docker exec -it cli ./scripts/channel/joinPeer.sh peer0 org2 Org2MSP 8051
 
+#Install chaincode
+docker exec -it cli ./scripts/channel/install-cc.sh
+
 
