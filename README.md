@@ -16,8 +16,7 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html
 `git clone https://github.com/ialberquilla/hlf1.4-couchdb`
 
 6. Install chaincode nodejs dependencies
-`cd hlf1.4-couchdb/chaincode`
-`npm install`
+`cd hlf1.4-couchdb/chaincode && npm install`
 
 5. Go to the template
 `cd ..`
